@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/E/Projects/qonsider",
+			"folder_exclude_patterns":[".tmp","node_modules","PSD","client/bower_components"]
+
+		}
+	]
+}

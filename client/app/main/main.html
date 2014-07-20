@@ -1,0 +1,64 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+    <div class="container">
+        <img src="assets/images/logo.png" alt="Qonsider" title="Qonsider Beta">
+        <h2 class="lead">Real Online Dating</h2>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class='page-header'>Welcome Qonsider!</h1>
+            <h2>
+              WTF is Qonsider
+            </h2>
+            <p>
+                Qonsider is a brand new online dating site for men and women from 18-39 in the Toronto area! Qonsider is NOT like any dating site you have tried before. It's 100% free and getting started takes 3 seconds.
+            </p>
+            <h2>
+              Is Qonsider like X,Y,Z dating site I've tried before?
+            </h2>
+            <p>
+                Hell no!
+            </p>
+            <p>
+                On Qonsider, you're automatically paired with one compatible person in your area. Send them messages, view their pictures, play games with them - and only them. At the end of the day, if it's a match, keep flirting for as long as you want. If not, you're paired the next day with someone else.
+            </p>
+            <h2>It's Like a Blind Date (without the terror, or bland pasta)</h2>
+            <h2><a ui-sref='signup'>Sign Up Now! It's free!</a></h2>
+            <p>
+                Qonsider is the blind date evolved. You get to know a person in a simulated 1-on-1 setting. All other candidates are blocked off so you get a chance to appreciate your potential soulmate (and they get a chance to appreciate you!)
+            </p>
+
+            <h2 class="page-header">Features:</h2>
+            <ul class="nav nav-tabs nav-stacked col-lg-6" ng-repeat="thing in awesomeThings">
+                <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}<button type="button" class="close" ng-click="deleteThing(thing)">&times;</button></a>
+                </li>
+            </ul>
+            <h2>When can I start?</h2>
+            <p>Qonsider is still in Beta but should be up and running soon! Sign up for account now to get automatic updates on when Qonsider will online!</p>
+        </div>
+    </div>
+
+    <!--   <form class="thing-form">
+    <label>Syncs in realtime across clients</label>
+    <p class="input-group">
+      <input type="text" class="form-control" placeholder="Add a new thing here." ng-model="newThing">
+      <span class="input-group-btn">
+        <button type="submit" class="btn btn-primary" ng-click="addThing()">Add New</button>
+      </span>
+    </p>
+  </form>
+ -->
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p><a href="https://twitter.com/qonsidr">@qonsidr</a> 
+          <!-- | -->
+            <!-- <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a> -->
+        </p>
+    </div>
+</footer>
